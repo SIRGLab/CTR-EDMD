@@ -1,0 +1,25 @@
+#goal definition
+float32[] q
+float32[] e
+float32[] g
+float32[] force
+float32 ode_step
+bool bvp
+---
+#result definition
+float32[] x
+float32[] y
+float32[] z
+float32[] R11
+float32[] R12
+float32[] R13
+float32[] R21
+float32[] R22
+float32[] R23
+float32[] R31
+float32[] R32
+float32[] R33
+---
+float32[] x
+float32[] y
+float32[] z

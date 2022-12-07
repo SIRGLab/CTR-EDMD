@@ -1,0 +1,16 @@
+<launch>
+  <node name="ctr_main" pkg="ctr_main" type="ctr_main" output="screen"/>
+  <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_reconfigure"/>
+  <node pkg="update_rviz" type="update_rviz" name="update_rviz" output="screen"/>
+  <node pkg="ctr_controller" type="ctr_controller" name="ctr_controller" output="screen"/>
+  <node pkg="calculation" type="calculation" name="calculation"  output="screen"/>
+  
+  <arg name="xacro_robot_file" value="$(find update_rviz)/urdf/ctr_model.xacro"/>
+  <param name="robot_description" command="$(find xacro)/xacro '$(arg xacro_robot_file)'"/>
+
+  <arg name="xacro_object_file" value="$(find update_rviz)/urdf/ctr_object.xacro"/>
+  <param name="robot_object" command="$(find xacro)/xacro '$(arg xacro_object_file)'"/>
+
+	<rosparam command="load" file="$(find update_rviz)/config/config.yaml" />
+  <node name="rviz" pkg="rviz" type="rviz" args=" -d $(find update_rviz)/launch/config.rviz" />
+</launch>
