@@ -1,10 +1,10 @@
 # CTR-EDMD
-Data-driven Steering of Concentric Tube Robots in Unknown Environments via Dynamic Mode Decomposition
+Repository for Simulation and Control of Concentric Tube Robots. It implements the methodology presented in presented in the following paper: "Data-driven Steering of Concentric Tube Robots in Unknown Environments via Dynamic Mode Decomposition
+". Balint Thamo, David Hanley Kevin Dhaliwal, Mohsen Khadem. IEEE Robotics and Automation Letters, 2022.
 
 
 
-
-This repo uses C++ in ROS environment to simulate data-driven steering of CTRs via Dynamic Mode Decomposition. 
+This repo uses C++ in ROS Melodic environment to simulate data-driven steering of CTRs via Dynamic Mode Decomposition. 
 You need to copy the folders into the src folder in your workspace. Then you can run it by the following command:  roslaunch ctr_main ctr_main.launch
 
 The simulation environment shows each tube separately as well as the overall shape of the CTR.
