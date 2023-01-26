@@ -1,5 +1,5 @@
 # CTR-EDMD
-Repository for Simulation and Control of Concentric Tube Robots. It implements the methodology presented in presented in the following paper: "Data-driven Steering of Concentric Tube Robots in Unknown Environments via Dynamic Mode Decomposition
+Repository for Simulation and Control of Concentric Tube Robots. It implements the methodology presented in the following paper: "Data-driven Steering of Concentric Tube Robots in Unknown Environments via Dynamic Mode Decomposition
 ". Balint Thamo, David Hanley Kevin Dhaliwal, Mohsen Khadem. IEEE Robotics and Automation Letters, 2022.
 
 
