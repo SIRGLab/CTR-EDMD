@@ -9,7 +9,7 @@ You need to copy the folders into the src folder in your workspace. Then you can
 
 The simulation environment shows each tube separately as well as the overall shape of the CTR.
 
-In 'manual' mode the robot can be moved manually by altering beta and alpha values.
+In 'manual' mode the robot can be moved manually by altering beta and alpha values corrseponding to rotational and translational inputs.
 
 In 'koopman' mode first the 'initial learning' task needs to be selected to learn the dynamics of the system.
 Then selecting the 'square' task steers the robot's tip along a square trajectory.
